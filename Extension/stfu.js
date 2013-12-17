@@ -37,12 +37,12 @@ function removeIndependentism(textNode) {
     v = v.replace(/\bcatalunya\b/g, "Ponilandia");
     v = v.replace(/\bsoberanista\b/g, "mágica");
     v = v.replace(/\bSoberanista\b/g, "mágica");
-	v = v.replace(/\bconsulta soberanista\b/g, "Fiesta de la patata");
-    v = v.replace(/\bConsulta soberanista\b/g, "Fiesta de la patata");
-    v = v.replace(/\bConsulta Soberanista\b/g, "Fiesta de la patata");
-	v = v.replace(/\bconsulta independentista\b/g, "Fiesta de la patata");
-    v = v.replace(/\bConsulta independentista\b/g, "Fiesta de la patata");
-    v = v.replace(/\bConsulta Independentista\b/g, "Fiesta de la patata");
+	v = v.replace(/\bconsulta mágica\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta mágica\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta mágica\b/g, "Fiesta de la patata");
+	v = v.replace(/\bconsulta brillante como la purpurina\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta brillante como la purpurina\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta brillante como la purpurina\b/g, "Fiesta de la patata");
     v = v.replace(/\bindependent\b/g, "brillante como la purpurina");
     v = v.replace(/\bIndependent\b/g, "brillante como la purpurina");
     v = v.replace(/\bindependiente\b/g, "brillante como la purpurina");
@@ -55,6 +55,9 @@ function removeIndependentism(textNode) {
     v = v.replace(/\bIndependencia\b/g, "Fiesta Parda");
     v = v.replace(/\bindependència\b/g, "Fiesta Parda");
     v = v.replace(/\bIndependència\b/g, "Fiesta Parda");
+    v = v.replace(/\bla vía catalana\b/g, "el corro de la patata");
+    v = v.replace(/\bla vía catalana\b/g, "el corro de la patata");
+    v = v.replace(/\bla vía catalana\b/g, "el corro de la patata");
 	
 	textNode.nodeValue = v;
 }
