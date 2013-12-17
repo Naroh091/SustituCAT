@@ -13,7 +13,7 @@ function walk(node) {
 		case 9:  // Document
 		case 11: // Document fragment
 			child = node.firstChild;
-			while ( hild) {
+			while (child) {
 				next = child.nextSibling;
 				walk(child);
 				child = next;
