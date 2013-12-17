@@ -56,8 +56,9 @@ function removeIndependentism(textNode) {
     v = v.replace(/\bindependència\b/g, "Fiesta Parda");
     v = v.replace(/\bIndependència\b/g, "Fiesta Parda");
     v = v.replace(/\bla vía catalana\b/g, "el corro de la patata");
-    v = v.replace(/\bla vía catalana\b/g, "el corro de la patata");
-    v = v.replace(/\bla vía catalana\b/g, "el corro de la patata");
+    v = v.replace(/\bvía catalana\b/g, "corro de la patata");
+    v = v.replace(/\bvia catalana\b/g, "corro de la patata");
+    v = v.replace(/\bla via catalana\b/g, "el corro de la patata");
 	
 	textNode.nodeValue = v;
 }
