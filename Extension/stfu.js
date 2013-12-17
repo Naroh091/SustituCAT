@@ -51,10 +51,10 @@ function removeIndependentism(textNode) {
     v = v.replace(/\bIndependentista\b/g, "brillante como la purpurina");
     v = v.replace(/\bindependentism\b/g, "shiny");
     v = v.replace(/\bIndependentism\b/g, "shiny");
-    v = v.replace(/\bindependencia\b/g, "Fiestón");
-    v = v.replace(/\bIndependencia\b/g, "Fiestón");
-    v = v.replace(/\bindependència\b/g, "Fiestón");
-    v = v.replace(/\bIndependència\b/g, "Fiestón");
+    v = v.replace(/\bindependencia\b/g, "Fiesta Parda");
+    v = v.replace(/\bIndependencia\b/g, "Fiesta Parda");
+    v = v.replace(/\bindependència\b/g, "Fiesta Parda");
+    v = v.replace(/\bIndependència\b/g, "Fiesta Parda");
 	
 	textNode.nodeValue = v;
 }
