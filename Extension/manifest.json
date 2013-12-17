@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "STFU.cat",
+  "version": "1.0",
+  "description": "No more independentism on your browser",
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["stfu.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
