@@ -29,10 +29,32 @@ function walk(node) {
 function removeIndependentism(textNode) {
 	var v = textNode.nodeValue;
 
-    v = v.replace(/\b(Catalonia|Cataluña|Catalunya)\b/gi, "Ponilandia");
-    v = v.replace(/\bsoberanista\b/gi, "mágica");
-	v = v.replace(/\b(consulta soberanista|consulta independentista)\b/gi, "Corro de la patata");
-	v = v.replace(/\b(independent|independiente|independentista|independentisme|independentism)\b/gi, "brillante como la purpurina");
+    v = v.replace(/\bCatalonia\b/g, "Ponilandia");
+    v = v.replace(/\bcatalonia\b/g, "Ponilandia");
+    v = v.replace(/\bCataluña\b/g, "Ponilandia");
+    v = v.replace(/\bcataluña\b/g, "Ponilandia");
+    v = v.replace(/\bCatalunya\b/g, "Ponilandia");
+    v = v.replace(/\bcatalunya\b/g, "Ponilandia");
+    v = v.replace(/\bsoberanista\b/g, "mágica");
+    v = v.replace(/\bSoberanista\b/g, "mágica");
+	v = v.replace(/\bconsulta soberanista\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta soberanista\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta Soberanista\b/g, "Fiesta de la patata");
+	v = v.replace(/\bconsulta independentista\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta independentista\b/g, "Fiesta de la patata");
+    v = v.replace(/\bConsulta Independentista\b/g, "Fiesta de la patata");
+    v = v.replace(/\bindependent\b/g, "brillante como la purpurina");
+    v = v.replace(/\bIndependent\b/g, "brillante como la purpurina");
+    v = v.replace(/\bindependiente\b/g, "brillante como la purpurina");
+    v = v.replace(/\bIndependiente\b/g, "brillante como la purpurina");
+    v = v.replace(/\bindependentista\b/g, "brillante como la purpurina");
+    v = v.replace(/\bIndependentista\b/g, "brillante como la purpurina");
+    v = v.replace(/\bindependentism\b/g, "shiny");
+    v = v.replace(/\bIndependentism\b/g, "shiny");
+    v = v.replace(/\bindependencia\b/g, "Fiestón");
+    v = v.replace(/\bIndependencia\b/g, "Fiestón");
+    v = v.replace(/\bindependència\b/g, "Fiestón");
+    v = v.replace(/\bIndependència\b/g, "Fiestón");
 	
 	textNode.nodeValue = v;
 }
