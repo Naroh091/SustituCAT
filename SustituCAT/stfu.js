@@ -35,8 +35,7 @@ function removeIndependentism(textNode) {
     v = v.replace(/\bcataluña\b/g, "Ponilandia");
     v = v.replace(/\bCatalunya\b/g, "Ponilandia");
     v = v.replace(/\bcatalunya\b/g, "Ponilandia");
-    v = v.replace(/\bsoberanista\b/g, "mágica");
-    v = v.replace(/\bSoberanista\b/g, "mágica");
+    v = v.replace(/\bproceso soberanista\b/g, "nacimiento de las mariposas");
 	v = v.replace(/\bconsulta independentista\b/g, "gran adoración al bizcocho de chocolate");
     v = v.replace(/\bconsulta soberanista\b/g, "gran adoración al bizcocho de chocolate");
     v = v.replace(/\bconsulta secesionista\b/g, "gran adoración al bizcocho de chocolate");
@@ -47,6 +46,8 @@ function removeIndependentism(textNode) {
     v = v.replace(/\bIndependiente\b/g, "brillante como la purpurina");
     v = v.replace(/\bindependentista\b/g, "brillante como la purpurina");
     v = v.replace(/\bIndependentista\b/g, "brillante como la purpurina");
+	v = v.replace(/\bIndependentistas\b/g, "Bailarines");
+	v = v.replace(/\bindependentistas\b/g, "bailarines");
     v = v.replace(/\bindependencia\b/g, "fiesta parda");
     v = v.replace(/\bIndependencia\b/g, "Fiesta Parda");
     v = v.replace(/\bindependència\b/g, "fiesta parda");
@@ -91,6 +92,8 @@ function removeIndependentism(textNode) {
 	v = v.replace(/\bEstado soberano\b/g, "Estado gaseoso");
 	v = v.replace(/\bveto a la consulta\b/g, "rechazo a la rica miel");
 	v = v.replace(/\brechazo a la consulta\b/g, "rechazo a la rica miel");
+    v = v.replace(/\bsoberanista\b/g, "mágica");
+    v = v.replace(/\bSoberanista\b/g, "mágica");
 		
 	textNode.nodeValue = v;
 }
