@@ -15,7 +15,7 @@ En prensa:
 
 [SustituCAT: reemplaza a los catalanes por ponies en tu navegador - Libertad Digital](http://www.libertaddigital.com/ciencia-tecnologia/internet/2013-12-17/sustitucat-reemplaza-a-los-catalanes-por-ponies-en-tu-navegador-1276506671/)
 
-[¿Cansado de Cataluña? Cámbiala por Ponilandia](http://vozpopuli.com/buscon/36117-cansado-de-cataluna-cambiala-por-ponilandia)
+[¿Cansado de Cataluña? Cámbiala por Ponilandia - Voz Populi](http://vozpopuli.com/buscon/36117-cansado-de-cataluna-cambiala-por-ponilandia)
 
 [Ironía anti-separatista: inventan un programa que sustituye (entre otras) la palabra "consulta" por "poni mágico" - La Información](http://noticias.lainformacion.com/espana/ironia-anti-separatista-inventan-un-programa-que-sustituye-entre-otras-la-palabra-consulta-por-poni-magico_KR6IFthCz6uD9IIbmgK4c3/)
 
